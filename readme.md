@@ -26,3 +26,5 @@ apuntar a a DB Postgres -- appsettings.json
 dotnet tool install --global dotnet-aspnet-codegenerator --version 5.0.2
 
 dotnet aspnet-codegenerator identity -dc PruebaMVCLogin.Data.ApplicationDbContext --files "Account.Register;Account.Login"
+
+dotnet tool update --global dotnet-ef --version 5.0.10
