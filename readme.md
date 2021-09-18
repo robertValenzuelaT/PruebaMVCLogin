@@ -28,3 +28,14 @@ dotnet tool install --global dotnet-aspnet-codegenerator --version 5.0.2
 dotnet aspnet-codegenerator identity -dc PruebaMVCLogin.Data.ApplicationDbContext --files "Account.Register;Account.Login"
 
 dotnet tool update --global dotnet-ef --version 5.0.10
+
+dotnet ef database update
+
+
+En el Archivo ApplicationDBContext :
+    public DbSet<PruebaMVCLogin.Models.Contact> DataContacts { get; set; }
+
+
+dotnet ef migrations add InitialMigration --context PruebaMVCLogin.Data.ApplicationDbContext -o "C:\Users\radaklegol_1M\Documents\Sources\PruebaMVCLogin\Data\Migrations"
+
+dotnet ef database update

@@ -12,5 +12,7 @@ namespace PruebaMVCLogin.Data
             : base(options)
         {
         }
+
+        public DbSet<PruebaMVCLogin.Models.Contact> DataContacts { get; set; }
     }
 }
