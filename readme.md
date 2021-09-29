@@ -39,3 +39,9 @@ En el Archivo ApplicationDBContext :
 dotnet ef migrations add InitialMigration --context PruebaMVCLogin.Data.ApplicationDbContext -o "C:\Users\radaklegol_1M\Documents\Sources\PruebaMVCLogin\Data\Migrations"
 
 dotnet ef database update
+
+************ PARTE 2 ******* (Producto y catalogo)
+
+dotnet ef migrations add DescripcionoMigration --context PruebaMVCLogin.Data.ApplicationDbContext -o "C:\Users\radaklegol_1M\Documents\Sources\PruebaMVCLogin\Data\Migrations"
+
+dotnet ef database update
