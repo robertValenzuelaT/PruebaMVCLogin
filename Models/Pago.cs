@@ -15,7 +15,9 @@ namespace PruebaMVCLogin.Models
         public DateTime PaymentDate { get; set; }
         public String NombreTarjeta { get; set; }
         public String NumeroTarjeta { get; set; }
+        [NotMapped]
         public String DueDateYYMM { get; set; }
+        [NotMapped]
         public String Cvv { get; set; }
         public Decimal MontoTotal{ get; set; }
         public String UserID{ get; set; }
