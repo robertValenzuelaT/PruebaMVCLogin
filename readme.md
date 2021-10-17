@@ -45,3 +45,5 @@ dotnet ef database update
 dotnet ef migrations add DescripcionoMigration --context PruebaMVCLogin.Data.ApplicationDbContext -o "C:\Users\radaklegol_1M\Documents\Sources\PruebaMVCLogin\Data\Migrations"
 
 dotnet ef database update
+
+dotnet ef migrations add ProformaMigration --context PruebaMVCLogin.Data.ApplicationDbContext -o "C:\Users\radaklegol_1M\Documents\Sources\PruebaMVCLogin\Data\Migrations"
